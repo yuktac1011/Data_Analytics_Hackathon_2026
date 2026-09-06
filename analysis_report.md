@@ -3,7 +3,7 @@
 **Data Analytics Hackathon 2026 — Official Submission Report**  
 **Dataset Scope:** 99,441 Orders | 112,650 Items | 96,096 Customers | 3,095 Sellers | Sep 2016 – Oct 2018  
 **Repository Artifact:** [`olist_analytics.ipynb`](file:///d:/Projects/Data_Analytics_Hackathon_2026/olist_analytics.ipynb)  
-
+**Colab Link:**  https://colab.research.google.com/drive/1JKzUUMZXfyUj1rpmwJ8PpmjRcvNX3jFX?usp=sharing
 ---
 
 ## Executive Summary
