@@ -31,23 +31,23 @@ Through an empirical synthesis of **econometric modeling, non-parametric hypothe
 ```mermaid
 flowchart TD
     subgraph S1["1. Data Engineering & Integrity Pipeline"]
-        A[9 Relational CSV Datasets] --> B[Spatial Centroid Deduping & Geo Lookup]
-        B --> C[Order-Item Grain: master_df | N=112,650]
-        B --> D[Order Grain: order_df | N=99,441]
+        A["9 Relational CSV Datasets"] --> B["Spatial Centroid Deduping & Geo Lookup"]
+        B --> C["Order-Item Grain: master_df (N=112,650)"]
+        B --> D["Order Grain: order_df (N=99,441)"]
     end
 
     subgraph S2["2. Econometric Testing & Diagnostic Exploration"]
-        C & D --> E[Section 3: Marketplace Scaling & MoM Dynamics]
-        C & D --> F[Section 4: Delivery Punctuality & Kruskal-Wallis H]
-        C & D --> G[Section 5: Haversine Geography & RJ Anomaly]
-        C & D --> H[Section 6: 74-Category Economics & Volume Drag]
-        C & D --> I[Section 7: Payment Financing & Parcelamento Elasticity]
+        C & D --> E["Section 3: Marketplace Scaling & MoM Dynamics"]
+        C & D --> F["Section 4: Delivery Punctuality & Kruskal-Wallis H"]
+        C & D --> G["Section 5: Haversine Geography & RJ Anomaly"]
+        C & D --> H["Section 6: 74-Category Economics & Volume Drag"]
+        C & D --> I["Section 7: Payment Financing & Parcelamento Elasticity"]
     end
 
     subgraph S3["3. Multivariate Modeling & Account Governance"]
-        E & F & G & H & I --> J[Section 8: Standardized Logit OR & Random Forest]
-        J --> K[Section 9: Isolation Forest Rogue Merchant Auditing]
-        J --> L[Section 10: Pareto Retention & CLV Multiplier]
+        E & F & G & H & I --> J["Section 8: Standardized Logit OR & Random Forest"]
+        J --> K["Section 9: Isolation Forest Rogue Merchant Auditing"]
+        J --> L["Section 10: Pareto Retention & CLV Multiplier"]
     end
 
     subgraph S4["4. Executive Action Plan (2026-2027)"]

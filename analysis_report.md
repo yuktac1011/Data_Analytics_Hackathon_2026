@@ -18,22 +18,22 @@ By synthesizing econometric modeling, non-parametric statistical hypothesis test
 ```mermaid
 flowchart TD
     subgraph S1["Data Ingestion & Integrity Pipeline"]
-        A[9 Relational CSVs] --> B[Geo-Centroid Deduping & Imputation]
-        B --> C[Order-Item Grain: master_df & Order Grain: order_df]
+        A["9 Relational CSVs"] --> B["Geo-Centroid Deduping & Imputation"]
+        B --> C["Order-Item Grain: master_df and Order Grain: order_df"]
     end
 
     subgraph S2["Analytical Exploration & Hypothesis Testing"]
-        C --> D[Marketplace Scaling Dynamics]
-        C --> E[Logistics & Delivery Punctuality]
-        C --> F[Spatial Geography & Seller Concentration]
-        C --> G[Product Category Economics]
-        C --> H[Payment Behavior & Parcelamento]
+        C --> D["Marketplace Scaling Dynamics"]
+        C --> E["Logistics & Delivery Punctuality"]
+        C --> F["Spatial Geography & Seller Concentration"]
+        C --> G["Product Category Economics"]
+        C --> H["Payment Behavior & Parcelamento"]
     end
 
     subgraph S3["Root Cause & Anomaly Synthesis"]
-        D & E & F & G & H --> I[Multivariate Logistic Regression & Random Forest]
-        I --> J[Unsupervised Isolation Forest: Seller & Order Anomaly Layer]
-        I --> K[Cohort & Pareto Retention Economics]
+        D & E & F & G & H --> I["Multivariate Logistic Regression & Random Forest"]
+        I --> J["Unsupervised Isolation Forest: Seller & Order Anomaly Layer"]
+        I --> K["Cohort & Pareto Retention Economics"]
     end
 
     subgraph S4["Strategic Action Plan"]
